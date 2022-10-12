@@ -2,20 +2,20 @@
 - ### Người thực hiện: Đoàn Thái Minh Khang
 - ### Thời gian: 10/7/2022
 - ### Mục lục:
-    - A. KHÁI NIỆM
-        1. SQL Injection là gì?
-        2. Ảnh hưởng của SQLi?
-        3. Phân loại
+    [A. KHÁI NIỆM](https://github.com/kahang3000/SQL-Injection#a-kh%C3%A1i-ni%E1%BB%87m)
+    1. SQL Injection là gì?
+    2. Ảnh hưởng của SQLi?
+    3. Phân loại
 
-    - B. DEMO MỘT SỐ LOẠI SQLi
-        1. UNION-based SQLi
-        2. Error-based SQLi
-        3. Blind SQLi
+    [B. DEMO MỘT SỐ LOẠI SQLi](https://github.com/kahang3000/SQL-Injection#b-demo-m%E1%BB%99t-s%E1%BB%91-lo%E1%BA%A1i-sqli)
+    1. UNION-based SQLi
+    2. Error-based SQLi
+    3. Blind SQLi
 
 ***
 ## **A. KHÁI NIỆM**
 
-**1. SQL Injection là gì?**
+1. SQL Injection là gì?
 - Là lỗ hổng Web cho phép Attacker can thiệp vào các câu truy vấn mà Web App truyền đến Database.
 - Thông thường lỗ hổng cho phép Attacker view data và trong nhiều trường hợp có thể chỉnh sửa hoặc xóa data.
 - Trong một vài tình huống Attacker lợi dụng SQLi làm bàn đạp để tấn công vào server hoặc các cơ sở Back-end hoặc DoS.
@@ -38,10 +38,10 @@
 ## **B. DEMO MỘT SỐ LOẠI SQLi**
 **1. UNION-based SQLi:**
 
-Bằng cách lợi dụng toán tử **UNION** trong ngôn ngữ SQL cho phép tổng hợp kết quả của 2 hay nhiều câu truy vấn **SELECTION** để nhận được HTTP response có thể chứa dữ liệu mà Attacker có thể sử dụng.
+- Bằng cách lợi dụng toán tử **UNION** trong ngôn ngữ SQL cho phép tổng hợp kết quả của 2 hay nhiều câu truy vấn **SELECTION** để nhận được HTTP response có thể chứa dữ liệu mà Attacker có thể sử dụng.
+- Entry point có lỗ hổng SQLi
 
-
-    - Entry point có lỗ hổng SQLi http://localhost/CRUD/read.php
+     http://localhost/CRUD/read.php
 ```php
 <?php
 // Check existence of id parameter before processing further
