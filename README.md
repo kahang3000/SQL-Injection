@@ -8,8 +8,8 @@
         3. Phân loại
 
     - B. DEMO MỘT SỐ LOẠI SQLi
-        1. UNION based
-        2. Error based
+        1. UNION-based SQLi
+        2. Error-based SQLi
         3. Blind SQLi
 
 ***
@@ -36,3 +36,36 @@
 
 ***
 ## **B. DEMO MỘT SỐ LOẠI SQLi**
+**1. UNION-based SQLi:**
+
+Bằng cách lợi dụng toán tử **UNION** trong ngôn ngữ SQL cho phép tổng hợp kết quả của 2 hay nhiều câu truy vấn **SELECTION** để nhận được HTTP response có thể chứa dữ liệu mà Attacker có thể sử dụng.
+
+
+    - Entry point có lỗ hổng SQLi http://localhost/CRUD/read.php
+```php
+<?php
+// Check existence of id parameter before processing further
+if(isset($_GET["id"])){
+    // Include config file
+    require_once "config.php";
+
+    $id = $_GET['id'];
+    $sql = "SELECT * FROM nhanvien WHERE id = $id";
+    $result = mysqli_query($link, $sql);
+    if (mysqli_num_rows($result) > 0) {
+        // Store data of each row
+        while($row = mysqli_fetch_assoc($result)) {
+            $name = $row["name"];
+            $address = $row["address"];
+            $salary = $row["salary"];
+            echo "<pre>ID: {$id}<br />Name: {$name}<br />Address: {$address}<br />Salary: {$salary}<br /></pre>";
+            echo '<a href="welcome.php">Go back</a>';
+        }
+        } else {
+        echo "0 Results";
+        }
+        mysqli_close($link);
+    }
+?>
+
+```
