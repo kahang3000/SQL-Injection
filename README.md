@@ -2,21 +2,21 @@
 - ### Người thực hiện: Đoàn Thái Minh Khang
 - ### Thời gian: 10/7/2022
 - ### Mục lục:
-[A. KHÁI NIỆM](https://github.com/kahang3000/SQL-Injection#a-kh%C3%A1i-ni%E1%BB%87m)
+    [A. KHÁI NIỆM](https://github.com/kahang3000/SQL-Injection#a-kh%C3%A1i-ni%E1%BB%87m)
 
-[1. SQL Injection là gì?](https://github.com/kahang3000/SQL-Injection#1-sql-injection-l%C3%A0-g%C3%AC)
+    [1. SQL Injection là gì?](https://github.com/kahang3000/SQL-Injection#1-sql-injection-l%C3%A0-g%C3%AC)
 
-[2. Ảnh hưởng của SQLi?](https://github.com/kahang3000/SQL-Injection#2-%E1%BA%A3nh-h%C6%B0%E1%BB%9Fng-c%E1%BB%A7a-sqli)
+    [2. Ảnh hưởng của SQLi?](https://github.com/kahang3000/SQL-Injection#2-%E1%BA%A3nh-h%C6%B0%E1%BB%9Fng-c%E1%BB%A7a-sqli)
 
-[3. Phân loại](https://github.com/kahang3000/SQL-Injection#3-ph%C3%A2n-lo%E1%BA%A1i)
+    [3. Phân loại](https://github.com/kahang3000/SQL-Injection#3-ph%C3%A2n-lo%E1%BA%A1i)
 
-[B. DEMO MỘT SỐ LOẠI SQLi](https://github.com/kahang3000/SQL-Injection#b-demo-m%E1%BB%99t-s%E1%BB%91-lo%E1%BA%A1i-sqli)
+    [B. DEMO MỘT SỐ LOẠI SQLi](https://github.com/kahang3000/SQL-Injection#b-demo-m%E1%BB%99t-s%E1%BB%91-lo%E1%BA%A1i-sqli)
 
-[1. UNION-based SQLi](https://github.com/kahang3000/SQL-Injection#1-union-based-sqli)
+    [1. UNION-based SQLi](https://github.com/kahang3000/SQL-Injection#1-union-based-sqli)
 
-2. Error-based SQLi
+    [2. Error-based SQLi](https://github.com/kahang3000/SQL-Injection#2-error-based-sqli)
 
-3. Blind SQLi
+    [3. Blind SQLi](https://github.com/kahang3000/SQL-Injection#3-blind-sqli)
 
 ***
 ## **A. KHÁI NIỆM**
