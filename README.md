@@ -73,6 +73,8 @@
     ?>
     ```
 - Trang Web có tính năng xem được dữ liệu của user
-![alt text](https://github.com/kahang3000/SQL-Injection/tree/master/img/1 "Logo Title Text 1")
+
+![Union 1](https://github.com/kahang3000/SQL-Injection/blob/master/img/1.png "Union 1")
+
 ### **2. Error-based SQLi:**
 ### **3. Blind SQLi:**
