@@ -72,5 +72,7 @@
         }
     ?>
     ```
+
+    
 ### **2. Error-based SQLi:**
 ### **3. Blind SQLi:**
