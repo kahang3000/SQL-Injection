@@ -72,7 +72,7 @@
         }
     ?>
     ```
-
-    
+- Trang Web có tính năng xem được dữ liệu của user
+![alt text](https://github.com/kahang3000/SQL-Injection/tree/master/img/1 "Logo Title Text 1")
 ### **2. Error-based SQLi:**
 ### **3. Blind SQLi:**
