@@ -76,5 +76,7 @@
 
 ![Union 1](https://github.com/kahang3000/SQL-Injection/blob/master/img/1.png "Union 1")
 
+![Union 2](https://github.com/kahang3000/SQL-Injection/blob/master/img/2.png "Union 2")
+
 ### **2. Error-based SQLi:**
 ### **3. Blind SQLi:**
